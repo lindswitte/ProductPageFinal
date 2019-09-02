@@ -1,0 +1,79 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	font-family: 'Futura', sans-serif;
+	line-height: 1.6;
+}
+
+header .primary-nav{
+	display: flex;
+	flex-direction: row;
+}
+
+header .secondary-nav{
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul li{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px 0;
+}
+
+nav li a{
+	color: #000000;
+}
+
+
+.wrapper{
+
+}
+
+.section-1{
+
+}
+.section-2{
+	
+}
+.section-3{
+	
+}
+.section-3{
+	
+}
+
+footer{
+	background: #d9e4ea;
+	height: 100px;
+}
+
+@media screen and (min-width: 768px){
+}
+
+@media screen and (min-width: 1220px){
+}
+
