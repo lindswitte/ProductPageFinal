@@ -154,7 +154,7 @@ header {
 	animation-play-state:running;
 	animation-duration: 5s;
 	animation-iteration-count: 5;
-	animation-direction: reverse;
+	animation-direction: alternate-reverse;
 }
 
 .secondSpoon{
@@ -176,7 +176,7 @@ header {
 	animation-play-state:running;
 	animation-duration: 5s;
 	animation-iteration-count: 5;
-	animation-direction: alternate;
+	animation-direction: alternate-reverse;
 }
 .fourthSpoon{
 	position: relative;
@@ -198,7 +198,6 @@ header {
 	width: 50%;
 	float:left;
 	display:block;
-
 }
 
 .cow-section img{
@@ -248,8 +247,14 @@ footer.site-footer .footer-menu-group ul li a{
 }
 
 @media screen and (min-width:728px){
+	.four-image-section img{
+	width: 25%;
+	display:block;
+	}
+
 	.big-section img{
-	width: 30%;
+	width: 25%;
+	height: 25%;
 	margin-left:40px;
 	}
 
